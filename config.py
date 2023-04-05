@@ -13,8 +13,8 @@ if USE_PROXY:
     # 代理网络的地址，打开你的科学上网软件查看代理的协议(socks5/http)、地址(localhost)和端口(11284)
     proxies = { 
         #          [协议]://  [地址]  :[端口]
-        "http":  "socks5h://localhost:11284", 
-        "https": "socks5h://localhost:11284", 
+        "http":  "http://127.0.0.1:7890",
+        "https": "http://127.0.0.1:7890",
     }
 else:
     proxies = None
